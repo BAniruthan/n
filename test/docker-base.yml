@@ -2,6 +2,8 @@ version: '2'
 # Define base service to specify the mounts and environment variables
 services:
   testbed:
+  
+  
     volumes:
       # make locally installed  bats available in container (based on bats/install.sh)
       - ../node_modules/bats/bin/bats:/usr/local/bin/bats
